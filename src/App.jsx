@@ -6,8 +6,6 @@ import { cards } from "./data";
 function App() {
   return (
     <div>
-      <img src="/assets/dog1.webp" width={100} alt="" />
-      <img src="/assets/dog2.webp" width={100} alt="" />
       {cards.map(el => (
         <Card
           imgSrc={el.src}
